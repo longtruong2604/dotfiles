@@ -44,9 +44,12 @@ abbr -a lt 'eza -aT --color=always --group-directories-first --icons' # tree lis
 abbr -a l. "eza -a | grep -E '^\.'" # dotfiles
 abbr -a --position anywhere -- -h '-h 2>&1 | bat --language=help --style=plain' # replace -h with bathelp
 abbr -a --position anywhere -- --help '--help 2>&1 | bat --language=help --style=plain' # replace --help with bathelp
+abbr -a cd z
+abbr -a cdi zi
 
 # Utilities
 starship init fish | source
+zoxide init fish | source
 
 
 # Color scheme
@@ -72,9 +75,6 @@ set -U fish_pager_color_completion 81a1c1 # #81a1c1
 set -U fish_pager_color_description yellow
 set -U fish_pager_color_prefix white --bold --underline
 set -U fish_pager_color_progress brwhite '--background=cyan'
-
-# set pnpm home env
-set -U PNPM_HOME "/home/zachhung/.local/share/pnpm"
 
 # tabtab source for packages
 # uninstall by removing these lines

@@ -126,7 +126,7 @@ if [ ! -n "$(grep -P "[[:space:]]winhost" /etc/hosts)" ]; then
 fi
 
 # pnpm
-export PNPM_HOME="/home/zachhung/.local/share/pnpm"
+export PNPM_HOME="/home/zachhung/.pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
