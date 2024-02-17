@@ -49,7 +49,7 @@ abbr -a cdi zi
 
 # Utilities
 starship init fish | source
-zoxide init fish | source
+zoxide init --cmd cd fish | source
 
 
 # Color scheme
