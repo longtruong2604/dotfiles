@@ -10,6 +10,8 @@
 	co = checkout
 	cob = checkout -b
 	coo = !git fetch && git checkout
+	sw = switch 
+	swc = switch -c
 	br = branch
 	brd = branch -d
 	st = status
