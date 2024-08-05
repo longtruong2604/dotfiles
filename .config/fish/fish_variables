@@ -58,4 +58,4 @@ SETUVAR fish_user_paths:/home/zachhung/\x2elocal/bin
 SETUVAR --export fzf_preview_dir_cmd:eza\x20\x2dl\x20\x2d\x2dcolor\x3dalways\x20\x2d\x2dgroup\x2ddirectories\x2dfirst\x20\x2d\x2dicons
 SETUVAR nvm_default_version:lts/hydrogen
 SETUVAR pnpm_bin_dir:undefined/bin
-SETUVAR winhost:172\x2e20\x2e208\x2e1
+SETUVAR winhost:10\x2e255\x2e255\x2e254
