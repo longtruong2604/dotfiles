@@ -1,17 +1,22 @@
 [core]
-	editor = \"C:\\Users\\longt\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	editor = code --wait
+
 [credential]
-	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
+	helper = store
+	
 [user]
 	name = longtruong2604
 	email = longtruong2604@gmail.com
 [alias]
     co = checkout
     br = branch
-    st = status
+    st = status -sb
     cm = commit -m
     tree = log --oneline --graph --all --decorate
+	line = log --oneline
+	last = log -1 HEAD
 	amend = commit --amend --no-edit
+	nline = log --oneline -n
 	aa = add .
 	fush = push --force
 	pullf = reset --hard HEAD
@@ -22,3 +27,5 @@
 	staaash = stash push --all -m # include ignored
 	f = fetch
 	upstream = push --set-upstream origin
+[init]
+	defaultBranch = main
