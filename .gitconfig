@@ -13,10 +13,12 @@
     st = status -sb
     cm = commit -m
     tree = log --oneline --graph --all --decorate
+    ntree = log --oneline --graph --decorate -n
 	line = log --oneline
 	last = log -1 HEAD
 	amend = commit --amend --no-edit
 	nline = log --oneline -n
+	cma = commit -am
 	aa = add .
 	fush = push --force
 	pullf = reset --hard HEAD
