@@ -27,7 +27,8 @@
 	stsh = stash push --keep-index -m  include unstaged only
 	staash = stash push --include-untracked -m # include untracked 
 	staaash = stash push --all -m # include ignored
-	f = fetch
+	frune =	fetch --prune
+
 	upstream = push --set-upstream origin
 [init]
 	defaultBranch = main
