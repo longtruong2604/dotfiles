@@ -21,13 +21,13 @@
 	cma = commit -am
 	aa = add .
 	fush = push --force
-	pullf = reset --hard HEAD
-	undo = reset --soft HEAD
+	full = reset --hard HEAD~1
+	undo = reset --soft HEAD~1
     dev = "!f() { git checkout dev && git pull origin dev; }; f"
 	stsh = stash push --keep-index -m  include unstaged only
 	staash = stash push --include-untracked -m # include untracked 
 	staaash = stash push --all -m # include ignored
-	frune =	fetch --prune
+	prune =	fetch --prune
 
 	upstream = push --set-upstream origin
 [init]
